@@ -1,0 +1,23 @@
+fastapi==0.110.0
+uvicorn==0.29.0
+pydantic==2.6.4
+python-dotenv==1.0.1
+
+# Embeddings + Reranker
+sentence-transformers==2.2.2
+transformers==4.39.3
+torch==2.2.1
+
+# Vector Search
+faiss-cpu==1.7.4
+
+# Utilities
+numpy==1.26.4
+scipy==1.12.0
+tqdm==4.66.2
+
+# Local LLM (Ollama)
+ollama==0.1.8
+
+# Optional (but recommended)
+typing_extensions==4.10.0
