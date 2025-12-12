@@ -1,0 +1,80 @@
+# --------------------------------------------------------
+# Global
+# --------------------------------------------------------
+*.DS_Store
+Thumbs.db
+*.log
+
+# --------------------------------------------------------
+# Python backend
+# --------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.db-journal
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Environment variables
+*.env
+.env.*
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# FAISS index + metadata
+backend/data/indexes/*.faiss
+backend/data/indexes/*.json
+backend/data/chunks/*.json
+
+# HuggingFace model cache
+~/.cache/huggingface/
+backend/**/.cache/
+backend/**/hf_cache/
+
+# Ollama model temporary downloads
+~/.ollama/
+
+# Temporary files
+*.tmp
+*.temp
+
+# --------------------------------------------------------
+# Node / React frontend
+# --------------------------------------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+frontend/rag-ui/build/
+frontend/rag-ui/dist/
+
+# Environment variables
+frontend/rag-ui/.env
+frontend/rag-ui/.env.local
+frontend/rag-ui/.env.development
+frontend/rag-ui/.env.production
+frontend/rag-ui/.env.test
+
+# --------------------------------------------------------
+# VS Code
+# --------------------------------------------------------
+.vscode/
+.history/
+
+# --------------------------------------------------------
+# Windows specific
+# --------------------------------------------------------
+*.lnk
