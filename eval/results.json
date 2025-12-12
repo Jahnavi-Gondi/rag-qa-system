@@ -1,0 +1,24 @@
+{
+  "results": [
+    {
+      "question": "What is the refund policy?",
+      "expected": "Refunds may be requested within 30 days of purchase. Proof of purchase is required.",
+      "predicted": "Refunds may be requested within 30 days of purchase. Customers must provide proof of purchase and submit the refund request through the official support portal. Refunds are typically processed within 7 business days. Digital products are non-returnable but may qualify for refund eligibility depending on usage.",
+      "semantic_similarity": 0.8292828798294067
+    },
+    {
+      "question": "How long do refunds take?",
+      "expected": "Refunds are processed within 7 business days.",
+      "predicted": "Refunds are typically processed within 7 business days.",
+      "semantic_similarity": 0.989997386932373
+    },
+    {
+      "question": "Does the platform support analytics?",
+      "expected": "Yes, it includes real-time analytics.",
+      "predicted": "Yes, the platform includes real-time analytics as part of its features.",
+      "semantic_similarity": 0.9334348440170288
+    }
+  ],
+  "avg_similarity": 0.9175717035929362,
+  "eval_time_sec": 53.58525991439819
+}

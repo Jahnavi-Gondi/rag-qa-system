@@ -1,0 +1,14 @@
+{
+  "chunks": [
+    {
+      "id": "doc0_chunk0",
+      "document": "features.txt",
+      "text": "The platform includes user authentication, real-time analytics, and API integrations. It also supports role-based permissions, data export options, and an intuitive dashboard. New updates include performance improvements, accessibility enhancements, and AI-powered search features."
+    },
+    {
+      "id": "doc1_chunk0",
+      "document": "policy.txt",
+      "text": "Refunds may be requested within 30 days of purchase. Customers must provide proof of purchase and submit the refund request through the official support portal. Refunds are typically processed within 7 business days. Digital products are non-returnable but may qualify for refund eligibility depending on usage."
+    }
+  ]
+}
